@@ -1,0 +1,32 @@
+# Java and Maven
+target/
+*.class
+*.jar
+*.war
+.mvn/timing.properties
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# IDEs and editors
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+.github/copilot-instructions.md
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
