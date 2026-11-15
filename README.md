@@ -158,19 +158,10 @@ flowlens/
 ├── observability/       # Prometheus and Grafana configuration
 ├── docs/
 │   ├── architecture.md
-│   └── adr/             # Architecture decision records
 ├── .github/workflows/   # CI/CD pipelines
 ├── docker-compose.yml
 └── CONTRIBUTING.md
 ```
-
-## Design decisions
-
-Short notes on why things are built the way they are live in [`docs/adr/`](docs/adr/). Examples of what they cover:
-
-- Why the assistant calls computed metrics instead of reading raw events
-- Why the API and the insight service are separate
-- How the assistant's answers are tested against the known problems hidden in the simulator
 
 ## Roadmap
 
